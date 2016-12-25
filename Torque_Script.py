@@ -9,5 +9,5 @@ EF_Torque = EF_Force * EF_radius
 EF_HoldingTorque = EF_Weight * (EF_radius / 10) #kg.cm
 print('EF_Torque',EF_Torque)
 print('EF_Holding Torque', EF_HoldingTorque)
-
+#include all six axes later
 
