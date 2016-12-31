@@ -26,6 +26,6 @@ print('seconds per 60 degree', speed)
 finalTorque = (1/gear_ratio) * vStepperTorque
 print('Torque=', finalTorque,'KG.cm')
 
-microstepping = 1/16.000 #or maybe 1/32
+microstepping = 1/32.0000 #or maybe 1/32
 accuracy = microstepping * arm_radius * 1.8 * gear_ratio
 print(accuracy, 'mm per step')
