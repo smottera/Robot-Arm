@@ -13,9 +13,9 @@ print('EF_Holding Torque', EF_HoldingTorque)
 print('----------------------------')
 vStepper = 2.00 #angular velocity of the stepper motor shaft rad/sec or rev/sec
 deg_per_sec = vStepper * 360
-vStepperTorque = 0.7*19 #Kg .cm
-gear_ratio = 1/6.0000 #worm gear ratio
-arm_radius = 100.00 #mm
+vStepperTorque = 0.7*11 #Kg .cm
+gear_ratio = 1/3.0000 #worm gear ratio
+arm_radius = 200.00 #mm
 swing = arm_radius * 2.00 * (22.00/7) * vStepper * gear_ratio #angular velocity mm/sec
 print('swing',swing)
 
