@@ -38,6 +38,7 @@ void loop() {
 void pump(pul1,pul2,pul3,pul4,pul5,pul6,dir1,dir2,dir3,dir4,dir5,dir6)
 {
 	//Load Serial Direction
+		
 
 	//Load Serial Pulse
 	
@@ -45,3 +46,40 @@ void pump(pul1,pul2,pul3,pul4,pul5,pul6,dir1,dir2,dir3,dir4,dir5,dir6)
 	
 	//Reset Direction Reg
 }
+
+void shift_Dir(signal)
+{
+		if(signal)
+				{
+					//Set DS to HIGH
+					digitalWrite(Dir_DS, HIGH);
+					digitalWrite(Dir_DS, LOW);
+					//Shift
+					digitalWrite(Dir_Sh, HIGH);
+					digitalWrite(Dir_Sh, LOW);
+				}
+		else
+		{
+				//Just Shift
+				digitalWrite(Dir_Sh, HIGH);
+				digitalWrite(Dir_Sh, LOW);
+		}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
