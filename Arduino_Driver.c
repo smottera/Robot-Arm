@@ -52,21 +52,21 @@ unsigned int dir1,unsigned int dir2,unsigned int dir3,unsigned int dir4,unsigned
 		shift_Dir(dir5);
 		shift_Dir(dir6);
 		//!!!Shift!!!
-		digitalWrite(Dir_Sh,HIGH);
-		digitalWrite(Dir_Sh,LOW);
+		digitalWrite(Dir_St,HIGH);
+		digitalWrite(Dir_St,LOW);
 		
 	//Load Serial Pulse
 		//Let go of Reset
 		digitalWrite(Dir_Rst, LOW);
-		shift_Pul(Pul1);
-		shift_Pul(Pul2);
-		shift_Pul(Pul3);
+		shift_Pul(pul1);
+		shift_Pul(pul2);
+		shift_Pul(pul3);
 		shift_Pul(Pul4);
-		shift_Pul(Pul5);
-		shift_Pul(Pul6);
+		shift_Pul(pul5);
+		shift_Pul(pul6);
 		//!!!Store!!!
-		digitalWrite(Pul_Sh,HIGH);
-		digitalWrite(Pul_Sh,LOW);
+		digitalWrite(Pul_St,HIGH);
+		digitalWrite(Pul_St,LOW);
 	
 	//Reset Pulse Reg
 	digitalWrite(Pul_Rst, HIGH);
