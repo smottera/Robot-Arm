@@ -66,6 +66,5 @@ void pump(unsigned int pul1, unsigned int dir1, unsigned int pul2, unsigned int 
 		if(dir6) digitalWrite(pdir6,HIGH);
 		digitalWrite(ppul6, LOW);
 		if(pul6) digitalWrite(ppul6,HIGH);
-		
 
 }
