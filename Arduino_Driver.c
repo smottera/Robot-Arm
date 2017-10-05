@@ -96,7 +96,7 @@ void shift_Dir(unsigned int signal)
 		}
 }
 
-//Writes to SH
+//Writes to SH .
 void shift_Pul(unsigned int signal)
 {
 		if(signal)
