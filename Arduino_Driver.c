@@ -18,7 +18,7 @@ void setup() {
   pinMode(4, OUTPUT);
   pinMode(5, OUTPUT);
   
-//Pulse Reg
+//Pulse Reg  g
   pinMode(6, OUTPUT);
   pinMode(7, OUTPUT);
   pinMode(8, OUTPUT);
