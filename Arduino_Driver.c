@@ -55,7 +55,7 @@ unsigned int dir1,unsigned int dir2,unsigned int dir3,unsigned int dir4,unsigned
 		digitalWrite(Dir_St,HIGH);
 		digitalWrite(Dir_St,LOW);
 		
-	//Load Serial Pulse
+	// Load Serial Pulse
 		//Let go of Reset
 		digitalWrite(Dir_Rst, LOW);
 		shift_Pul(pul1);
