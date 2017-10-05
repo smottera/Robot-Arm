@@ -18,13 +18,13 @@ void setup() {
   pinMode(4, OUTPUT);
   pinMode(5, OUTPUT);
   
-//Pulse Reg  g
+// Pulse Reg  g
   pinMode(6, OUTPUT);
   pinMode(7, OUTPUT);
   pinMode(8, OUTPUT);
   pinMode(9, OUTPUT);  
   
-  //Initialize Regs
+  // Initialize Regs
   digitalWrite(Dir_Rst, HIGH);
   digitalWrite(Pul_Rst, HIGH);
   digitalWrite(Dir_Sh, LOW);
@@ -34,7 +34,7 @@ void setup() {
 
 void loop() {
     digitalWrite(8, LOW);
-  digitalWrite(9, LOW);
+ 	 digitalWrite(9, LOW);
 }
 
 
