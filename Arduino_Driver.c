@@ -42,7 +42,7 @@ void loop() {
 void pump(unsigned int pul1,unsigned int pul2,unsigned int pul3,unsigned int pul4,unsigned int pul5,unsigned int pul6,
 unsigned int dir1,unsigned int dir2,unsigned int dir3,unsigned int dir4,unsigned int dir5,unsigned int dir6)
 {
-	//Load Serial Direction
+	// Load Serial Direction
 		//Let go of Reset
 		digitalWrite(Dir_Rst, LOW);
 		shift_Dir(dir1);
