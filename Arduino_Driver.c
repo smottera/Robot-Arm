@@ -13,6 +13,7 @@ const int Pul_Rst = 9;
 void setup() {                
  
 //Direction Reg g 
+	
   pinMode(2, OUTPUT);
   pinMode(3, OUTPUT);
   pinMode(4, OUTPUT);
