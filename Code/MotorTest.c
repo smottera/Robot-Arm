@@ -24,6 +24,7 @@ const int direc6 = 29;
 
 
 int counter = 0;
+
 int clockwise = 0;
 
 void pulseMotor(int pulsePin, int directionPin, int direction)
