@@ -43,7 +43,6 @@ void pulseMotor(int pulsePin, int directionPin, int direction)
 void setup() {
   
   pinMode(motor1,OUTPUT);
-	
   pinMode(direc1, OUTPUT);
   pinMode(motor2,OUTPUT);
   pinMode(direc2, OUTPUT);
