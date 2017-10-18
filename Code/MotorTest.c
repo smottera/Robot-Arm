@@ -65,6 +65,7 @@ void loop() {
 	{
 		counter = 0;
 		clockwise = !clockwise;
+		
 	}
 	pulseMotor(motor1, direc1, clockwise);
 	pulseMotor(motor2, direc2, clockwise);
