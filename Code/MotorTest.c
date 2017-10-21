@@ -2,7 +2,6 @@ const int motor1 = 18;
 const int direc1 = 19;
 const int motor2 = 20;
 const int direc2 = 21;
-
 const int motor3 = 22;
 const int direc3 = 23;
 
