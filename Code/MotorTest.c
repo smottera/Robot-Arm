@@ -19,6 +19,7 @@ const int motor5 = 26;
 const int direc5 = 27;
 
 const int motor6 = 28;
+
 const int direc6 = 29;
 
 
