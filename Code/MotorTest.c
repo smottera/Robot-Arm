@@ -40,7 +40,8 @@ void pulseMotor(int pulsePin, int directionPin, int direction){
 	
 }
 
-void setup() {
+void setup()
+{
   
   pinMode(motor1,OUTPUT);
   pinMode(direc1, OUTPUT);
