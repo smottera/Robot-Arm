@@ -27,8 +27,7 @@ int counter = 0;
 
 int clockwise = 0;
 
-void pulseMotor(int pulsePin, int directionPin, int direction)
-{
+void pulseMotor(int pulsePin, int directionPin, int direction){
 	if(direction == 0)
 		digitalWrite(directionPin, LOW);
 	else
